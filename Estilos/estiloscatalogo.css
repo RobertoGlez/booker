@@ -1,0 +1,80 @@
+@font-face{
+    font-family: 'Sans-Narrow-Regular';
+    src:url('../Font/Sans-Narrow-Regular.ttf');
+	}
+	@font-face{
+	    font-family: 'Oswald-Light';
+	    src:url('../Font/Oswald-Light.ttf');
+	}
+	@font-face{
+	    font-family: 'IndieFlower';
+	    src:url('../Font/IndieFlower.ttf');
+	}
+	@font-face{
+    font-family: 'BebasNeue';
+    src:url('../Font/BebasNeue.otf');
+	}
+	@font-face{
+	    font-family:'RobotoSlab-Regular';
+	    src:url('../Font/RobotoSlab-Regular.ttf');
+	}
+
+	body{
+		background-image: url('../Imgs/image.jpg');
+ 		background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+	}
+	/*Menu Admin*/
+	.menuadmin{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+background: rgb(225,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+		color: black;
+		width: 40%;
+		margin:auto;
+		margin-top: 0px;
+		overflow: hidden;
+		padding: 40px;
+		border-radius: 15px;
+	}
+	.central ul{
+		width: 90%;
+
+	}
+	.central ul li {
+		list-style: none;
+		margin:20px;
+		width: 180px;
+		padding: 10px;
+		text-align: center;
+
+	}
+	.central ul li a{
+		font-family: Sans-Narrow-Regular;
+		text-decoration:none;
+		color: black;
+
+	}
+	.central ul li a:hover{
+		
+	}
+	.central ul li:hover{
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+	}
+
+	.central>h1 {
+		font-family: BebasNeue;
+		text-align: center;
+	}
+	.central{
+		width: 60%;
+		margin:auto;
+		font-size: 20px;
+		
+	}

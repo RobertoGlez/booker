@@ -1,0 +1,405 @@
+@font-face{
+    font-family: 'BebasNeue';
+    src:url('../Font/BebasNeue.otf');
+}
+@font-face{
+    font-family:'RobotoSlab-Regular';
+    src:url('../Font/RobotoSlab-Regular.ttf');
+}
+
+
+header{
+    height: 186px;
+    background: rgb(255,255,255);
+
+    
+}
+
+
+/*Login*/
+.Contlogin{
+    position: absolute;
+    float:right;
+    /*position: fixed;*/    
+    width: 100%;
+
+}
+
+.login{
+    overflow: hidden;
+    padding: 0px 15px 15px 15px;
+    
+
+}
+.login li{
+    padding:0px;
+    float:right;
+    list-style: none;
+   
+
+
+}
+.login li>a{
+    
+    text-decoration: none;
+    font-family:RobotoSlab-Regular;
+    padding:15px;
+    display:inline-block;
+    color:rgb(0,0,0);
+    border-radius: 0px 0px 20px 20px;
+
+}
+    .login li>a:hover{
+        background-color: rgb(30,125,215) ;
+        border-bottom: 5px solid rgba(0,0,0,0);
+        color:rgb(255,255,255);
+    }
+    .login li>a:active{
+        background-color: rgb(30,92,149);
+        box-shadow: inset 0px 3px 2px rgb(0,0,0);
+    }
+
+    .icon-user, .icon-quill {
+        padding: 15px;
+
+    }
+    #Crt:hover{
+        background-color:#f23535;
+    }
+ 
+
+
+
+
+/*__________*/
+
+
+header nav {
+   background: rgb(255,255,255);
+   
+
+    
+}
+    header nav .menu2{
+        width: 80%;
+    }
+
+    .ContenedorMenu{
+
+    width: 1000px;
+    margin:auto;
+
+    }
+
+    header nav ul{
+        list-style: none;
+        overflow: hidden;
+        margin: auto;
+    }
+        header nav .menu2>li{
+            float: left;
+            
+        }
+            header nav ul li a {
+                background-color:rgb(255,255,255);
+                display:block;
+                padding:15px;
+                color:black;
+                text-decoration: none;
+                font-family:BebasNeue;
+                font-size: 24px;
+                border-top: 5px solid rgba(0,0,0,0);
+
+            }
+            
+            .SubmenuCategorias a{
+            font-size: 15px;
+            width: 90px;
+            padding: 10px;
+            font-family: Sans-Narrow-Regular;
+            background-color:rgb(215,215,215);
+            
+
+            }
+                .SubmenuCategorias a:hover{
+                    border-radius: 0px 0px 0px 0px;
+                }
+            header nav ul li a:hover{
+                color:rgb(30,125,215);
+                border-top: 5px   solid #1e7dd7; 
+                    -moz-transition: all .2s;
+                    -webkit-transition: all .2s;
+                    -o-transition: all .2s; 
+                /*border-radius: 20px 20px 0px 0px;*/
+            }
+
+
+            header nav ul li a:active{
+                background-color: rgb(30,92,149);
+                box-shadow: inset 0px 3px 2px rgba(0,0,0,1) ;
+                color: white;
+                border-radius: 0px 0px 0px 0px;
+                border-bottom: 5px   solid rgba(255,255,255,0); 
+
+
+            }
+
+            /* --- Clase menu pegajoso --- */
+            .menu-fixed {
+                position:fixed;
+                z-index:1000;
+                top:0;
+                max-width:2000px;
+                width:100%;
+                box-shadow:0px 4px 3px rgba(0,0,0,.5);
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -ms-transition: all .3s ease;
+                -o-transition: all .3s ease;
+                transition: all .3s ease;
+                }
+
+
+
+
+
+            /*__________________________*/
+
+            ul li ul{
+                display:none;
+                position: absolute;
+                min-width: 150px;
+                border-radius: 0px 0px 0px 0px;
+            }
+
+
+            ul li:hover > ul{
+                display:block;
+                border-radius: 0px 0px 0px 0px;
+
+            }
+
+/*Logotipo*/
+.Logo a>img{
+     display:block;
+     padding: 5px;
+     width:240px;
+     position:absolute;
+     z-index: 3000;
+}   
+
+.contlogo{
+    width:100%;
+    background-color:;
+
+
+}
+.Logo{
+    width: 23%;
+    
+    margin: auto;
+    background-color:;
+    padding-top: 15px;
+    text-align: center;
+}
+/*Banner*/
+
+.ContTagBanner{
+width: 100%;
+
+overflow: hidden;
+}
+
+
+.ContenedorTag{
+    width: 50%;
+    float: left;
+    
+
+}
+.TagBanner{
+    position: absolute;
+    width: 200px;
+    padding-left: 4%;
+    z-index: 2000;
+}
+
+
+
+#SubmenuCategorias li a{
+
+
+}
+
+/*Seccion de Busqueda*/
+#CampoBuscar{
+    padding: 7px 10px 7px 15px;
+    margin: 6px;
+    width: 250px;
+    float: right;
+    height: auto;
+    border: none;
+    border-radius: 50px;
+    box-sizing:border-box;
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,.7);
+    background-color:rgb(215,215,215);
+
+}
+    #CampoBuscar:focus{
+        background-color: white;
+    }
+
+.contbuscar{
+    width:25.5%;
+    /*background-color:white;*/
+    float: right;
+    box-sizing:border-box;
+    padding: 5px;
+    position: relative;
+    border-radius: 0px 0px 0px 0px;
+    background: rgba(255,255,255,1);
+
+
+}
+
+.Search{
+
+    overflow: hidden;
+    float: right;
+    width: 100%;
+    box-shadow: 0px 3px 2px rgba(0,0,0,.5);
+
+    height:50px;
+
+
+}
+#Boton-buscar{
+    border:none;
+    width:auto;
+    padding:10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 5px;
+}
+
+#Boton-buscar:hover{
+    background:rgb(30,125,215);
+    color:white;
+}
+
+/*Animacion de menu fijo*/
+.home{
+margin-top: 140px;
+margin-left: 65px;
+border-radius: 0px 0px 0px 0px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+}
+    .home2{
+        margin-top:0px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+        .home a:hover{
+            border-radius: 0px 0px 0px 0px;
+        }
+
+
+
+
+.Categorias{
+    margin-top: 140px;
+    margin-right: 100px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+}
+    .Categorias2{
+        margin-top: 0px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+        .Categorias>a:hover{
+        border-radius: 0px 0px 0px 0px;
+    }
+
+.Nosotros{
+    margin-top: 140px;
+    margin-left: 100px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+}
+    .Nosotros2{
+        margin-top: 0px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+        .Nosotros a:hover{
+        border-radius: 0px 0px 0px 0px;
+    }
+
+.Contacto{
+    margin-top: 140px;
+
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+}
+    .Contacto2{
+        margin-top:0px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+        .Contacto a:hover{
+        border-radius: 0px 0px 0px 0px;
+    }
+
+
+.LogoNombre{
+        visibility: hidden;
+        margin-top: 140px;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+}
+
+
+
+   .LogoNombre2{
+        margin-top:0px;
+        visibility: hidden;
+            
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+.LogoNombre2:hover{
+     background-color: #c5c5c5;
+}

@@ -1,0 +1,94 @@
+html
+
+
+			<article id="c-slider">
+			<div id="c-sliderdos">
+				<div id="slider">
+					<script src"js/Slider.js"></script>
+					<section>
+						<img src="Catalogo/el_alfabeto_de_babel_roscalsillo.jpg" alt="">
+					</section>
+					<section>
+						<img src="Catalogo/Oscuros_Latrampadelamor.jpg" alt="">
+					</section>
+					<section>
+						<img src="Catalogo/Cementerio_de_animales.jpg" alt="">
+					</section>
+					<section>
+						<img src="Catalogo/Libro1.jpg" alt="">
+					</section>
+				</div>
+
+				<div id="btn-prev"><span class="icon-circle-left"></span></div>
+				<div id="btn-next"><span class="icon-circle-right"></span></div>
+			</div>
+			</article>
+
+
+
+
+
+
+css
+
+                                                                                /*   intento de slider
+                                                                                            #c-slider{
+                                                                                                margin: auto;
+                                                                                                width: 100%;
+                                                                                                max-height: 500px;
+                                                                                                position: relative;
+                                                                                                overflow: hidden;
+                                                                                                box-shadow: 0 0 0 10px #fff, 
+                                                                                                            0 15px 50px;
+                                                                                            }
+
+                                                                                            #c-sliderdos{
+
+                                                                                            }
+                                                                                            #slider{
+                                                                                                display: flex;
+                                                                                                display: -webkit- flex;
+                                                                                                display: -moz- flex;
+                                                                                                display: -o- flex;
+                                                                                                width: 500%;
+                                                                                            }
+                                                                                            #slider section{
+                                                                                                
+                                                                                                background: red;
+                                                                                            }
+                                                                                            #slider img{
+                                                                                                display: block;
+                                                                                                width: 100%;
+                                                                                                margin: auto;
+                                                                                                
+                                                                                                
+                                                                                            }
+                                                                                                #btn-prev,#btn-next{
+                                                                                                    width: 40px;
+                                                                                                    background: rgba(255,255,255,0.5);
+                                                                                                    color: black;
+                                                                                                    position: absolute;
+                                                                                                    top: 50%;
+                                                                                                    transform:traslateY(-50%);
+                                                                                                    line-height: 40px;
+                                                                                                    font-size: 22px;
+                                                                                                    font-weight: bold;
+                                                                                                    text-align: center;
+                                                                                                    border-radius: 50%
+                                                                                                    cursor:pointer;
+                                                                                                    font-family: ;
+                                                                                                }
+                                                                                                    #btn-prev:hover , #btn-next:hover{
+                                                                                                        background: rgba(255,255,255,1);
+                                                                                                    }
+                                                                                                #btn-prev{
+                                                                                                    left: 10px;
+                                                                                                }
+                                                                                                #btn-next{
+                                                                                                    right: 10px;
+                                                                                                }
+
+
+
+
+*/

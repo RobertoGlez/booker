@@ -1,0 +1,30 @@
+
+import flash.media.Sound;
+import flash.media.SoundChannel;
+import flash.events.MouseEvent;
+
+botonSonido.stop();
+
+var cancion:Sound = new musica();
+var canal1:SoundChannel = new SoundChannel();
+
+botonSonido.addEventListener(MouseEvent.CLICK, iniciarMusica);
+
+function iniciarMusica(event:MouseEvent):void
+{
+
+	if(botonSonido.currentFrame == 1)
+	{
+		
+		botonSonido.gotoAndStop(2);
+		canal1 = cancion.play();
+		
+	}
+	else if (botonSonido.currentFrame == 2)
+	{
+		
+		botonSonido.gotoAndStop(1);
+		canal1.stop();
+		
+	}
+}

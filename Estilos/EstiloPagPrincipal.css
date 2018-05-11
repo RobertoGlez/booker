@@ -1,0 +1,79 @@
+/*Seccion de IMportacion*/
+@import url(Menu.css);
+@font-face{
+    font-family: 'Sans-Narrow-Regular';
+    src:url('../Font/Sans-Narrow-Regular.ttf');
+
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+    /*-moz-transition: all .2s; /* Firefox 4 */
+    /*-webkit-transition: all .2s; /* Safari and Chrome */
+    /*-o-transition: all .2s; /* Opera */
+
+}
+
+body{
+
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+/*Menu___________________________*/
+
+
+
+/*Secciones____________________________________*/
+section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px 0px;
+    float: left;
+    font-family: Sans-Narrow-Regular;
+    font-size: 28px;
+   
+}
+
+article{
+   
+    padding: 30px ;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    width: 90%;
+    margin-left: auto;   
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+
+}
+
+ #dos{
+    background-image: url('../imgs/01.jpg');
+    margin: 50px 0px;
+
+ }
+
+#uno{
+    background-image: url('../imgs/02.jpg');
+}
+
+
+
+
+/*Aside__________________________*/
+
+
+
+/*Footer_________________________*/
+
+/*Redes Sociales*/
